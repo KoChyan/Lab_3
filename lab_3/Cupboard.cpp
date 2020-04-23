@@ -6,7 +6,7 @@
 void Cupboard::setNumberOfShelves(int numberOfShelves) {
     this->numberOfShelves = numberOfShelves;
 }
-int Cupboard::getNumberOfShelves() {return numberOfShelves;}
+int Cupboard::getNumberOfShelves() const {return numberOfShelves;}
 Cupboard::Cupboard(){
     setName("nun");
     setSize(0);
