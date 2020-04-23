@@ -17,11 +17,11 @@ using namespace std;
  public:
 virtual void print() = 0;
 void setName(string name);
-string getName();
+string getName() const;
 void setColor(string color);
-string getColor();
+string getColor() const;
 void setSize(int size);
-int getSize();
+int getSize() const;
 };
 
 
