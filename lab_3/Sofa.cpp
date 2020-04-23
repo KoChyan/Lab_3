@@ -6,7 +6,7 @@
 void Sofa::setCoating(string coating){
     this->coating = coating;
 }
-string Sofa::getCoating() {return coating;}
+string Sofa::getCoating() const {return coating;}
 Sofa::Sofa(){
     setName("nun");
     setSize(0);
