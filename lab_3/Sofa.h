@@ -13,7 +13,7 @@ private:
     string coating;
 public:
     void setCoating(string coating);
-    string getCoating();
+    string getCoating() const;
     Sofa();
     Sofa(string name, int size, string color, string coating, string material);
     void print() override;
