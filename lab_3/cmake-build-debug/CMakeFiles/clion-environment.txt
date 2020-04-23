@@ -1,0 +1,4 @@
+ToolSet: 16.0 (local)@D:\Other\Visual studio
+Options: msvc.arch=x86
+
+Options:
