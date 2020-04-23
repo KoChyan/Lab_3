@@ -13,7 +13,7 @@ private:
     int numberOfShelves;
 public:
    void setNumberOfShelves(int numberOfShelves);
-   int getNumberOfShelves();
+   int getNumberOfShelves() const;
    void print() override;
    Cupboard();
    Cupboard(string name, int size, string color, int numberOfShelves, string material);
