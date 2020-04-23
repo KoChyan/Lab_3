@@ -13,7 +13,7 @@ protected:
     string material;
 public:
     void setMaterial(string material);
-    string getMaterial();
+    string getMaterial() const;
 };
 
 
