@@ -6,4 +6,4 @@
 void Furniture::setMaterial(string material){
     this->material = material;
 }
-string Furniture::getMaterial(){return material;}
+string Furniture::getMaterial() const {return material;}
