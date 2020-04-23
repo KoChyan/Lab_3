@@ -6,7 +6,7 @@
 void Rack::setNumberOfSections(int numberOfSections) {
     this->numberOfSections = numberOfSections;
 }
-int Rack::getNumberOfSections() {return numberOfSections;}
+int Rack::getNumberOfSections()  const {return numberOfSections;}
 Rack::Rack(){
     setName("nun");
     setSize(0);
