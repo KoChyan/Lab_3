@@ -13,7 +13,7 @@ private:
     int numberOfSections;
 public:
     void setNumberOfSections(int numberOfSections);
-    int getNumberOfSections();
+    int getNumberOfSections() const;
     Rack();
     Rack(string name, int size, string color, int numberOfSections, string material);
     void print() override;
